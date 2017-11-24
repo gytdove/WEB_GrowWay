@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ihover 练习</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            list-style: none;
+        }
+        .box{
+            width: 360px;
+            height: 260px;
+            position: relative;
+            margin: 60px auto;
+            box-shadow: 0 0 0 1px red;
+            overflow: hidden;/*斜切多余的剪裁掉*/
+        }
+        .img,.text{
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+        }
+        .img{
+            transition: .35s;
+        }
+        .img img{
+            width: 100%;
+            height: 100%;
+            vertical-align: top;
+        }
+        .img::after{
+            position: absolute;
+            left: 0;
+            top: 0;
+            content: '';
+            width: 100%;
+            height: 100%;
+        }
+        .box:after,
+        .box:before{
+            content: "";
+            position: absolute;
+            left: 0; top: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0,0,0,.5);
+            z-index: 3;
+            transition: .35s ease-in;
+        }
+        .box:after{
+            transform: translateX(150%) skew(-54deg)/*斜切*/;
+        }
+        .box:before{
+            transform: translateX(-150%) skew(-54deg);
+        }
+        .text{
+            position: absolute;
+            left: 0; top: 30%;
+            width: 100%;
+            height: 80px;
+            background-color: yellowgreen;
+            transition: .35s .35s ease-in;
+            transform: rotate(-36deg) rotateX(90deg);/*默认旋转*/
+            z-index: 5;
+        }
+        .box:hover .text{
+            transform: rotate(0deg) rotateX(0deg);
+        }
+        .box:hover:after{
+            transform: translateX(50%) skew(-54deg);
+        }
+        .box:hover:before{
+            transform: translateX(-50%) skew(-54deg);
+        }
+
+    </style>
+</head>
+<body>
+<div class="box">
+    <div class="img"><img src="image/tuzi.png"></div>
+    <div class="text"></div>
+</div>
+</body>
+</html>
