@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ihover 练习</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            list-style: none;
+        }
+        .box{
+            width: 260px;
+            height: 260px;
+            position: relative;
+            margin: 60px auto;
+            border-radius: 50%;
+        }
+        .img,.text{
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            border-radius: 50%;
+        }
+        .img{
+            transition: .35s;
+        }
+        .img img{
+            width: 100%;
+            height: 100%;
+            vertical-align: top;
+            border-radius: 50%;
+        }
+        .text{
+            background-color: rgba(0,0,0,.3);
+            z-index: 2;/*层级*/
+            transition: .35s;
+            transform: translateX(-100%);/*初始偏移*/
+            opacity: 0;/*透明度*/
+            pointer-events: none;/*阻止鼠标事件*/
+        }
+        .img::after{
+            position: absolute;
+            left: 0;
+            top: 0;
+            content: '';
+            width: 100%;
+            height: 100%;
+            border-radius: 50%;
+            /*
+            阴影 X Y
+            */
+            box-shadow: inset 0 0 0 20px rgba(255,255,255,.6);
+        }
+        .box:hover .img{
+            transform: rotate(-90deg);
+        }
+        .box:hover .text{
+            transform: translateX(0);
+            opacity: 1;
+        }
+    </style>
+</head>
+<body>
+<div class="box">
+    <div class="img"><img src="image/tuzi.png"></div>
+    <div class="text"></div>
+</div>
+</body>
+</html>
