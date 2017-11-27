@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/animate.css" type="text/css">
+    <style>
+        .box{
+            width: 200px;
+            height: 200px;
+            background-color: yellowgreen;
+            margin: 80px auto;
+            display: none;
+        }
+    </style>
+</head>
+    <body>
+    <a href="#">按钮</a>
+        <!--https://daneden.github.io/animate.css/-->
+        <div class="box"></div>
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script>
+        $('a').click(function () {
+            $('.box').show().addClass('animated bounce')
+        })
+    </script>
+    </body>
+</html>
