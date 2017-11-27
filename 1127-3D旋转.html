@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            list-style: none;
+        }
+        body{
+            background-color: #0081D0;
+        }
+        .list{
+            text-align: center;
+            font-family: "Microsoft YaHei","微软雅黑";
+            font-size: 16px;
+            margin: 100px;
+        }
+        .list li{
+            display: inline-block;
+            margin: 30px;
+            perspective: 400px;
+        }
+        .list span{
+            text-decoration: none;
+            color: #FFFFFF;
+            display: inline-block;
+            height: 40px;
+            line-height: 40px;
+            padding: 0 20px;
+            background-color: #1293E1;
+            transition: .35s;
+        }
+        .list a{
+            transition: .35s;
+            position: relative;
+            height: 40px;
+            display: inline-block;
+            background-color: #1293E1;
+            /*css3 所有的变换效果,必须要加在inline-block 或 block 身上*/
+            transform-style: perserve-3d;
+        }
+        .list a:after{
+            content: '';
+            position: absolute;
+            left: 0;
+            bottom: 100%;
+            width: 100%;
+            height: 100%;
+            background-color: #036bcc;
+            transform: rotateX(90deg);
+            transform-origin: center bottom;
+        }
+        .list a:hover{
+            transform: rotateX(90deg);
+        }
+    </style>
+</head>
+<body>
+<ul class="list">
+    <li><a href="###"><span>测试一个文字</span></a></li>
+    <li><a href="###"><span>测试文字一个</span></a> </li>
+</ul>
+</body>
+</html>
