@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            list-style: none;
+        }
+        body{
+            background-color: #F3A000;
+        }
+        .list{
+            text-align: center;
+            font-family: "Microsoft YaHei","微软雅黑";
+            font-size: 16px;
+        }
+        .list li{
+            display: inline-block;
+            margin: 30px;
+        }
+        .list a{
+            text-decoration: none;
+            color: #000000;
+            display: inline-block;
+            height: 40px;
+            line-height: 40px;
+            position: relative;
+            padding: 0 20px;
+            overflow: hidden;/*多余的裁掉*/
+        }
+        .list a:after{
+            content: attr(hover-attr);
+            height: 100%;
+            width: 0;
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            transition: .35s;
+            color: #FFFFFF;
+            overflow: hidden;
+            text-align: left;
+        }
+        /*
+        伪类:  hover  focus  不会产生东西,只是执行一个样式而已
+        伪元素  在你的结构中添加一个元素出来(:after,:before),可以给它加任何的样式,需要添加 content 才能看到
+        */
+        .list a:hover:after{
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+<ul class="list">
+    <li><a href="###" hover-attr="测试一个文字">测试一个文字</a></li>
+    <li><a href="###" hover-attr="测试文字一个">测试文字一个</a> </li>
+</ul>
+</body>
+</html>
