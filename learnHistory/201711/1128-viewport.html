@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <meta name="viewport" id="viewport" content="width=device-width">
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .box{
+            width: 200px;
+            height: 200px;
+            background-color: yellowgreen;
+        }
+    </style>
+</head>
+    <body>
+        <!--viewport(可视图尺寸)
+        移动设备上的 viewport 就是设备的屏幕上能用来显示我们网页的那一块区域
+        浏览器上(也可能是一个 app 中的 webview) 用来显示网页的那部分区域
+        它可能比浏览器的可是区域要大,也可能比浏览器的可视区域要小
+        默认情况下,手机网页采用980px的宽-->
+
+        <!--content 参数
+        width - viewport 宽度(数值/ device-width)
+        也可以是具体数值
+        height - viewport 高度(数值/ device-height)
+        initial-scale - 初始缩放比例
+        任意值
+        user-scalable - 是否允许用户缩放(yes/no)|(0/1)
+        maximum-scale - 最大缩放比例
+        minimum-scale - 最小缩放比例-->
+    <div class="box"></div>
+    </body>
+</html>
