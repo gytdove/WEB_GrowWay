@@ -1,0 +1,58 @@
+@charset "utf-8";
+*{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+img{
+  border: none;
+  vertical-align: top;
+}
+em,i{
+  font-style: normal;
+}
+header{
+  background-color: #38474F;
+  padding: .6rem;
+}
+.header_bar{
+  height: .85rem;
+  margin-bottom: .9rem;
+}
+.txt{
+  font-size: .65rem;
+  line-height: .85rem;
+  color: #FFFFFF;
+  float: left;
+  padding-left: 10px;
+}
+.back{
+  float: left;
+  height: .7rem;
+  width: .7rem;
+  background-color: yellowgreen;
+}
+.shopCar{
+  float: right;
+  height: .7rem;
+  width: .7rem;
+  background-color: yellowgreen;
+  position: relative;
+}
+.shopCar i{
+  font-size: 12px;
+  height: .45rem;
+  line-height: .45rem;
+  border-radius: .225rem;
+  background-color: #FFFFFF;
+  padding: 0 .2rem;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.btn a{
+  display: inline-block;
+  width: 7.175rem;
+  height: 1.575rem;
+  border-radius: 3px;
+}

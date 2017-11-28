@@ -1,0 +1,26 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>rem 电商</title>
+
+    <meta name="viewport" id="viewport" content="width=device-width,initial-scale=1,user-scalable=0">
+    <script>
+        var _html = document.getElementsByTagName('html')[0];
+        var ch = document.documentElement.clientWidth;
+        ch>640?_html.style.fontSize = '40px':_html.style.fontSize = ch / 16 + 'px';
+    </script>
+    <link rel="stylesheet" href="../../css/rem电商.css" type="text/css">
+</head>
+<body>
+    <header>
+        <div class="header_bar">
+            <span class="back"></span><span class="txt">Woman,Dress</span> <span class="shopCar"><i>3</i></span>
+        </div>
+        <div class="btn">
+            <a href="#">add to wishlist</a><a href="#">add to cart</a>
+        </div>
+    </header>
+</body>
+</html>
