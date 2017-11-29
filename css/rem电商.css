@@ -11,9 +11,30 @@ img{
 em,i{
   font-style: normal;
 }
+.fl{
+  float: left;
+}
+.fr{
+  float: right;
+}
+/*清理浮动*/
+.clearfix:after{
+  content: "";
+  display: block;
+  clear: both;
+}
+.clearfix{
+  zoom: 1;
+}
+
+body{
+  font-family:"Times New Roman",Georgia,Serif;
+}
+
 header{
   background-color: #38474F;
   padding: .6rem;
+  margin-bottom: 0.65rem;
 }
 .header_bar{
   height: .85rem;
@@ -52,7 +73,18 @@ header{
 }
 .btn a{
   display: inline-block;
-  width: 7.175rem;
+  width: 49%;
   height: 1.575rem;
+  line-height: 1.575rem;
   border-radius: 3px;
+  font-size: 14px;
+  text-decoration: none;
+  color: #FFFFFF;
+  text-align: center;
+}
+.gm{
+  background-color: #2D3A40;
+}
+.gwc{
+  background-color: #F6846A;
 }
