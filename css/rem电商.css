@@ -88,3 +88,43 @@ header{
 .gwc{
   background-color: #F6846A;
 }
+.banner{
+  margin: .6rem;
+  background-color: #FFFFFF;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0,0,0,.4);
+  overflow: hidden;
+}
+.banner_imgs{
+  position: relative;
+}
+.banner ul li{
+  float: left;
+  display: none;
+}
+.banner ul .current{
+  display: block;
+}
+.banner ul{
+  /*width: 300%;*/
+}
+.banner ul li img{
+  background-size:cover;
+  width: 14.8rem;
+}
+.banner_imgs ol{
+  position: absolute;
+  left: 1rem;
+  bottom: 0.75rem;
+}
+.banner_imgs ol li{
+  float: left;
+  height: 8px;
+  width: 20px;
+  margin-right: 3px;
+  background-color: #D0D2D3;
+  border-radius: 2px;
+}
+.banner_imgs ol .current{
+  background-color: #67B0D6;
+}
