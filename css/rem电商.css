@@ -128,3 +128,24 @@ header{
 .banner_imgs ol .current{
   background-color: #67B0D6;
 }
+.banner_text{
+  padding:.65rem;
+}
+.banner_info{
+  float: left;
+  height: 1.675rem;
+  line-height: 1.675rem;
+  font-size: .5rem;
+}
+.banner_buy{
+  height:1.675rem;
+  line-height: 1.675rem;
+  width: 3.55rem;
+  background-color: #BFBFC4;
+  color: #FFFFFF;
+  border-radius: 6px;
+  float: right;
+  font-size: .5rem;
+  text-align: center;
+  text-decoration: none;/*文字修饰*/
+}
