@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="89d91cbc-468c-4e12-9fbf-56df34533c8c" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/learnHistory/201712/1202-banner 轮播图.html" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -27,10 +28,10 @@
         </entry>
       </file>
       <file leaf-file-name="1202-banner 轮播图.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/learnHistory/201712/1202-banner 轮播图.html">
+        <entry file="file://$PROJECT_DIR$/Special effects/1202-banner 轮播图.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="346">
-              <caret line="30" column="112" lean-forward="false" selection-start-line="30" selection-start-column="112" selection-end-line="30" selection-end-column="112" />
+            <state relative-caret-position="236">
+              <caret line="26" column="31" lean-forward="true" selection-start-line="26" selection-start-column="31" selection-end-line="26" selection-end-column="31" />
               <folding />
             </state>
           </provider>
@@ -39,18 +40,8 @@
       <file leaf-file-name="rem电商.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/rem电商.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
+            <state relative-caret-position="2992">
               <caret line="136" column="24" lean-forward="false" selection-start-line="136" selection-start-column="24" selection-end-line="136" selection-end-column="24" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../../jquerybanner/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="433">
-              <caret line="51" column="16" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="56" selection-end-column="7" />
               <folding />
             </state>
           </provider>
@@ -90,6 +81,7 @@
         <option value="$PROJECT_DIR$/css/rem电商.css" />
         <option value="$PROJECT_DIR$/learnHistory/201711/1128-rem 电商.html" />
         <option value="$PROJECT_DIR$/learnHistory/201712/1202-banner 轮播图.html" />
+        <option value="$PROJECT_DIR$/Special effects/1202-banner 轮播图.html" />
       </list>
     </option>
   </component>
@@ -134,6 +126,7 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -149,14 +142,12 @@
             <path>
               <item name="WEB_GrowWay" type="b2602c69:ProjectViewProjectNode" />
               <item name="WEB_GrowWay" type="462c0819:PsiDirectoryNode" />
-              <item name="learnHistory" type="462c0819:PsiDirectoryNode" />
-              <item name="201712" type="462c0819:PsiDirectoryNode" />
+              <item name="Special effects" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -220,11 +211,12 @@
       <workItem from="1512033505304" duration="6481000" />
       <workItem from="1512129001152" duration="1474000" />
       <workItem from="1512196440898" duration="938000" />
+      <workItem from="1512197862062" duration="56000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35343000" />
+    <option name="totallyTimeSpent" value="35399000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="499" y="75" width="1184" height="748" extended-state="0" />
@@ -259,7 +251,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/1127-加载进度球.html" />
     <entry file="file://$PROJECT_DIR$/1127-圆圈进度.html" />
     <entry file="file://$PROJECT_DIR$/1127-底部色块平滑渐隐.html" />
     <entry file="file://$PROJECT_DIR$/1127-边框旋转.html" />
@@ -326,7 +317,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/rem电商.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
+        <state relative-caret-position="2992">
           <caret line="136" column="24" lean-forward="false" selection-start-line="136" selection-start-column="24" selection-end-line="136" selection-end-column="24" />
           <folding />
         </state>
@@ -342,16 +333,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../../jquerybanner/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="433">
+        <state relative-caret-position="1122">
           <caret line="51" column="16" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="56" selection-end-column="7" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/learnHistory/201712/1202-banner 轮播图.html">
+    <entry file="file://$PROJECT_DIR$/learnHistory/201712/1202-banner 轮播图.html" />
+    <entry file="file://$PROJECT_DIR$/Special effects/1202-banner 轮播图.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="346">
-          <caret line="30" column="112" lean-forward="false" selection-start-line="30" selection-start-column="112" selection-end-line="30" selection-end-column="112" />
+        <state relative-caret-position="236">
+          <caret line="26" column="31" lean-forward="true" selection-start-line="26" selection-start-column="31" selection-end-line="26" selection-end-column="31" />
           <folding />
         </state>
       </provider>
