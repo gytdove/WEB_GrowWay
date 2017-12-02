@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" type="text/css" href="../../css/rem电商banner.css">
+    <title>banner图碎片化</title>
+
+</head>
+<body style="background-color:#F1F1F1">
+
+<div class="banner" id="banner1" style="margin: 50px auto;">
+    <div class="banner-view"></div>
+    <div class="banner-btn"></div>
+    <div class="banner-number"></div>
+    <div class="banner-progres"></div>
+</div>
+
+<div class="banner" id="banner2" style="margin: 50px auto;">
+    <div class="banner-view"></div>
+    <div class="banner-btn"></div>
+    <div class="banner-number"></div>
+    <div class="banner-progres"></div>
+</div>
+
+
+<script type="text/javascript" src="../../js/rem电商banner.js"></script>
+<script type="text/javascript">
+
+    var banner = new FragmentBanner({
+        container : "#banner1",//选择容器 必选
+        imgs : ['../../image/a1.png','../../image/a2.png','../../image/a3.png','../../image/a4.png','../../image/a5.png'],//图片集合 必选
+        size : {
+            width : 1000,
+            height : 560
+        },//容器的大小 可选
+        //行数与列数 可选
+        grid : {
+            line : 12,
+            list : 14
+        },
+        index: 0,//图片集合的索引位置 可选
+        type : 2,//切换类型 1 ， 2 可选
+        boxTime : 5000,//小方块来回运动的时长 可选
+        fnTime : 10000//banner切换的时长 可选
+    });
+
+    /*
+    ** 只填两个必要参数也是可以的
+    */
+    var banenr2 = new FragmentBanner({
+        container : "#banner2",//选择容器 必选
+        imgs : ['images/a1.png','images/a2.png','images/a3.png','images/a4.png','images/a5.png'],//图片集合
+    });
+
+</script>
+</body>
+</html>
