@@ -1,0 +1,15 @@
+@charset "utf-8";
+header{
+    height:1.5rem;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    background-image: linear-gradient(to bottom,rgba(0,0,0,.5),rgba(0,0,0,.2));
+}
+.banner .list li{
+    width: 100%;
+}
+.banner .list li img{
+    width: 100%;
+}
