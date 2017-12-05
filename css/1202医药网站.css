@@ -31,9 +31,34 @@ header{
     height: 12px; width: 12px;
     border-radius: 50%;
     border:solid 3px #ffffff;
-    box-sizing: border-box;
-    margin-left: 3px;
+    /*box-sizing: border-box;*/
+    margin-left: 5px;
 }
 .num .current{
     background-color: #ffffff;
+}
+main{
+    padding: .5rem .25rem;
+}
+nav{
+    background-color: #ffffff;
+    border: solid 1px #cccccc;
+    box-shadow: 0 1px 3px rgba(0,0,0,.5);
+    font-size: .5rem;
+    text-align: center;
+    padding-bottom: .5rem;
+}
+nav li{
+    width: 25%;
+    float: left;
+}
+nav i{
+    display: block;
+    height:2.5rem;
+    width:2.5rem;
+    background-image: url("../image/201712/1202医药网站/n1.jpg");
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: .5rem auto .25rem;
 }
