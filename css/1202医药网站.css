@@ -11,6 +11,7 @@ header{
 .banner{
     position: relative;
     overflow: hidden;
+    z-index: 1;
 }
 .list{
     width: 500%;
@@ -20,4 +21,19 @@ header{
 }
 .banner .list li img{
     width: 16rem;
+}
+.num{
+    position: absolute;
+    right: 14px; bottom: 14px;
+}
+.num li{
+    float: left;
+    height: 12px; width: 12px;
+    border-radius: 50%;
+    border:solid 3px #ffffff;
+    box-sizing: border-box;
+    margin-left: 3px;
+}
+.num .current{
+    background-color: #ffffff;
 }
