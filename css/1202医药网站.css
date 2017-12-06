@@ -40,11 +40,13 @@ header{
 main{
     padding: .5rem .25rem;
 }
-nav{
+.gBox{
     background-color: #ffffff;
     border: solid 1px #cccccc;
     box-shadow: 0 1px 3px rgba(0,0,0,.5);
     font-size: .5rem;
+}
+nav{
     text-align: center;
     padding-bottom: .5rem;
 }
@@ -61,4 +63,33 @@ nav i{
     background-repeat: no-repeat;
     background-size: cover;
     margin: .5rem auto .25rem;
+}
+nav a{
+    display: inline-block;
+}
+.item{
+    height: 100px;
+}
+.item_tit{
+    padding:.35rem;
+}
+.item_tit h5{
+    height:.65rem;
+    font-size: .65rem;
+    padding-left: .5rem;
+    border-left:solid 4px #0088cc;
+    line-height:1;
+    font-weight: normal;
+}
+.yao{
+    height:8.575rem;
+    position: relative;
+    background-color: #cccccc;
+}
+.autoImg{
+    width: 100%;
+}
+.big{
+    position: absolute;
+    width:7.65rem;
 }
