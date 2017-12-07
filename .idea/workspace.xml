@@ -21,8 +21,8 @@
       <file leaf-file-name="1202-医药网站.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/learnHistory/201712/1202-医药网站.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="297">
-              <caret line="43" column="100" lean-forward="false" selection-start-line="43" selection-start-column="100" selection-end-line="43" selection-end-column="100" />
+            <state relative-caret-position="349">
+              <caret line="46" column="18" lean-forward="true" selection-start-line="46" selection-start-column="18" selection-end-line="46" selection-end-column="18" />
               <folding />
             </state>
           </provider>
@@ -31,8 +31,8 @@
       <file leaf-file-name="1202医药网站.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/1202医药网站.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="143">
-              <caret line="76" column="18" lean-forward="true" selection-start-line="76" selection-start-column="18" selection-end-line="76" selection-end-column="18" />
+            <state relative-caret-position="432">
+              <caret line="106" column="13" lean-forward="true" selection-start-line="106" selection-start-column="13" selection-end-line="106" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -76,8 +76,8 @@
         <option value="$PROJECT_DIR$/css/医药网站.css" />
         <option value="$PROJECT_DIR$/css/reset.css" />
         <option value="$PROJECT_DIR$/Special effects/1202-banner 轮播图.html" />
-        <option value="$PROJECT_DIR$/learnHistory/201712/1202-医药网站.html" />
         <option value="$PROJECT_DIR$/css/1202医药网站.css" />
+        <option value="$PROJECT_DIR$/learnHistory/201712/1202-医药网站.html" />
       </list>
     </option>
   </component>
@@ -100,8 +100,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="711" />
-    <option name="y" value="83" />
+    <option name="x" value="751" />
+    <option name="y" value="75" />
     <option name="width" value="1184" />
     <option name="height" value="748" />
   </component>
@@ -122,7 +122,6 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -161,6 +160,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -234,14 +234,15 @@
       <workItem from="1512461079555" duration="3842000" />
       <workItem from="1512467082102" duration="3848000" />
       <workItem from="1512542280761" duration="1891000" />
+      <workItem from="1512648263226" duration="961000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="47980000" />
+    <option name="totallyTimeSpent" value="48941000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="711" y="83" width="1184" height="748" extended-state="0" />
+    <frame x="751" y="75" width="1184" height="748" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20808254" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -390,16 +391,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/learnHistory/201712/1202-医药网站.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="43" column="100" lean-forward="false" selection-start-line="43" selection-start-column="100" selection-end-line="43" selection-end-column="100" />
+        <state relative-caret-position="349">
+          <caret line="46" column="18" lean-forward="true" selection-start-line="46" selection-start-column="18" selection-end-line="46" selection-end-column="18" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/1202医药网站.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="143">
-          <caret line="76" column="18" lean-forward="true" selection-start-line="76" selection-start-column="18" selection-end-line="76" selection-end-column="18" />
+        <state relative-caret-position="432">
+          <caret line="106" column="13" lean-forward="true" selection-start-line="106" selection-start-column="13" selection-end-line="106" selection-end-column="13" />
           <folding />
         </state>
       </provider>

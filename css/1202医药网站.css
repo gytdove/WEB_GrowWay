@@ -93,3 +93,19 @@ nav a{
     position: absolute;
     width:7.65rem;
 }
+.sm{
+    position: absolute;
+    width: 7.8rem;
+}
+.l{
+    left: 0;
+}
+.t{
+    top:0;
+}
+.r{
+    right: 0;
+}
+.b{
+    bottom: 0;
+}
