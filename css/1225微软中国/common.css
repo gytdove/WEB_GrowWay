@@ -1,0 +1,352 @@
+@charset "utf-8";
+
+@font-face {
+    font-family: 'iconfont';
+    src: url('../font/iconfont.eot');
+    src: url('../font/iconfont.eot?#iefix') format('embedded-opentype'),
+    url('../font/iconfont.woff') format('woff'),
+    url('../font/iconfont.ttf') format('truetype'),
+    url('../font/iconfont.svg#iconfont') format('svg');
+}
+.iconfont{
+    font-family:"iconfont" !important;
+    font-size:16px;font-style:normal;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+body{
+    /*font-family: "Microsoft YaHei","微软雅黑";*/
+    font-family: punctuation, PingFangSC-Regular, "Microsoft YaHei", "微软雅黑";
+}
+/*顶部的广告条 */
+.wrgg{
+    background-color: #002050;
+    height: 33px;
+    color: #FFF;
+    line-height: 33px;
+    font-size: 12px;
+    text-align: center;
+}
+.wrgg a{
+    color: #FFF;
+    text-decoration: underline;
+}
+/*logo 搜索 等*/
+.g_header{
+    padding: 12px;
+    background-color: #F5F5F5;
+}
+.u_logo{
+    width: 95px;
+    height: 20px;
+    background: url(../images/logo.jpg) 0 0 no-repeat;
+    float: left;
+}
+.m_header_icon a{
+    display: inline-block;
+    height:20px;
+    line-height: 20px;
+    font-size: 20px;
+    color: #000;
+    margin-left: 35px;
+    font-size: 20px;
+}
+/*导航*/
+.g_nav{
+    border-bottom: solid 1px #666;
+}
+.g_nav_bd{
+    padding: 0 0 0 12px;
+    height: 50px;
+    line-height: 50px;
+    position: relative;
+}
+.u_wrlink{
+    font-size: 14px;
+    float: left;
+}
+.u_menu_btn{
+    float: right;
+    width: 48px;
+    height: 48px;
+    border: solid 1px #FFF;
+    line-height: 48px;
+    text-align: center;
+    font-size: 30px;
+}
+.u_mb_active{
+    border-left-color: #666;
+    border-top-color: #666;
+    border-bottom: solid 1px #FFF;
+    position: relative;
+    height: 49px;
+}
+.g_nav_list{
+    position: absolute;
+    left: 0;
+    top: 100%;
+    width: 100%;
+}
+.m_nav_list a{
+    padding-left: 20px;
+}
+.m_drog_menu ul{
+    display: none;
+}
+.m_drog_menu ul li{
+    float: none;
+}
+.m_drog_menu ul a{
+    display: block;
+    padding-left: 40px;
+}
+.m_nav_list ul a:hover{
+    background-color: #67C8F3;
+}
+
+/*焦点图*/
+.m_banner{
+    background-color: #DFDFDF;
+    padding: 20px;
+}
+/*畅销排行*/
+.cont_nav{
+    padding: 9px 0;
+    /*text-align: center;*/
+    /*background-color: yellowgreen;*/
+}
+
+.cont_nav a{
+    display: inline-block;
+    width: 32%;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    font-size: 14px;
+    background-color: #0F64CE;
+    color: #FFF;
+    margin-left: 1%;
+    margin-bottom: 1%;
+    vertical-align: middle;
+}
+.cont_nav .u_towLine{
+    line-height: 20px;
+    background-color: #17AAD5;
+}
+
+/*配图*/
+.u_tit_info{
+    height: 160px;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.ut1{
+    background-image: url(../images/lumia-banner.jpg);
+}
+.ut1 .u_tit_c{
+    background-color: #D0340A;
+}
+.ut2{
+    background-image: url(../images/office-banner.jpg);
+    background-color: #E9B407;
+}
+.ut2 .u_tit_c{
+    background-color: #E9B407;
+}
+.u_tit_c{
+    height: 100%;
+    width: 208px;
+    position: relative;
+}
+.u_sl{
+    position: absolute;
+    right: -94px;
+    top: 0;
+    width: 0;
+    height: 0;
+    overflow: hidden;
+    border-style: solid;
+    border-width: 160px 0 0 94px;
+    border-color: transparent transparent transparent #D0340A;
+}
+.u_sr{
+    position: absolute;
+    left: -94px;
+    top: 0;
+    width: 0;
+    height: 0;
+    overflow: hidden;
+    border-style: solid;
+    border-width: 0 0 160px 94px;
+    border-color: transparent transparent #E9B407 transparent;
+}
+
+/*商品 列表*/
+.g_sList{
+    padding: 40px 20px 20px;
+}
+.m_item{
+    border: solid 1px #ccc;
+    background-color: #FBEFEC;
+    text-align: center;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+.m_item h5{
+    margin: 20px 0;
+    font-size: 24px;
+}
+.m_item h5,
+.m_item p{
+    padding: 0 20px;
+}
+.m_item p{
+    margin: 30px 0;
+}
+.u_money{
+    font-size: 24px;
+    color: #EC5411;
+}
+.u_money i{
+    font-size: 14px;
+}
+.u_buy{
+    width: 126px;
+    height: 44px;
+    font-size: 24px;
+    color: #FFF;
+    background-color: #EC5411;
+    text-align: center;
+    line-height: 44px;
+    display: inline-block;
+    margin-left: 10px;
+}
+
+/*底部*/
+.g_footer{
+    background-color: #414141;
+    padding: 10px 20px 20px;
+    color: #FFFFFF;
+    margin-top: 40px;
+}
+.m_footer_hd{
+    margin-bottom: 30px;
+}
+.m_footer_hd dl{
+    font-size: 16px;
+}
+.m_footer_hd dl dt{
+    height: 45px;
+    line-height: 45px;
+    border-bottom: solid 1px #737373;
+}
+.m_footer_hd dl dt i{
+    float: right;
+}
+.m_footer_hd dl dd{
+    display: none;
+    height: 30px;
+    line-height: 30px;
+    padding-left: 20px;
+}
+.u_tab_sel{
+    height: 24px;
+    width: 76px;
+    background: url(../images/qiu.jpg) right top no-repeat #FFF;
+    padding-right: 24px;
+    display: inline-block;
+    text-align: center;
+    color: #000;
+}
+.u_about_info{
+    padding-top: 20px;
+    line-height: 20px;
+    padding-bottom: 50px;
+    background: url(../images/ms.jpg) left bottom no-repeat;
+}
+.u_about_info a{
+    color: #C8C8C8;
+    display: block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*公用样式*/
+html .pcshow{
+    display: none;
+}
+.html .hide{
+    display: none;
+}
+html .pcblock{
+    display: none;
+}
+.autoimg{
+    max-width: 100%;
+}
+.u_banner_text h4{
+    font-size: 24px;
+    margin-bottom: .5em;
+}
+.u_banner_text h5{
+    font-size: 20px;
+    margin-bottom: .5em;
+    font-weight: normal;
+}
+.u_banner_text p{
+    font-size: 14px;
+    line-height: 2;
+}

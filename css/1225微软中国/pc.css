@@ -1,0 +1,162 @@
+@charset "utf-8";
+
+/*pc下 显示的搜索框*/
+.u_search_input{
+    width: 460px;
+    border: solid 1px #666;
+    height: 28px;
+    padding: 0 10px;
+    display: inline-block;
+    margin-left: 35px;
+}
+.u_search_input input{
+    display: inline-block;
+    width: 100%;
+    height: 28px;
+    line-height: 28px;
+}
+.m_header_icon .u_help,
+.m_header_icon .u_login{
+    font-size: 12px;
+}
+/*body *{*/
+    /*background-color: yellowgreen !important;*/
+/*}*/
+
+/*导航*/
+.g_nav_list{
+    position: static;
+    /*margin-left: 155px;*/
+    /*background-color: yellowgreen;*/
+    /*float: left;*/
+    margin-left: 155px;
+    width: auto;
+}
+.m_nav_list li{
+    float: left;
+    margin-right: 15px;
+    position: relative;
+}
+.m_nav_list ul{
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 100%;
+    border: solid 1px #666;
+    border-top: none;
+    margin-top: -1px;
+    background-color: #fff;
+    z-index: 2;
+}
+.m_nav_list ul li{
+    margin-right: 0;
+}
+.m_nav_list a{
+    padding: 0 20px;
+}
+.m_nav_list ul a{
+    white-space: nowrap;
+    padding: 0 20px;
+    color: #000;
+}
+.u_banner_text{
+    padding-top: 10px;
+}
+.u_banner_text h4{
+    font-size: 30px;
+    margin-bottom: .5em;
+}
+.u_banner_text h5{
+    font-size: 24px;
+    margin-bottom: .5em;
+}
+.u_banner_text p{
+    font-size: 16px;
+    line-height: 2;
+}
+
+.u_tit_info{
+    height: 250px;
+}
+.u_sl{
+    border-width: 250px 0 0 94px;
+}
+.u_sr{
+    border-width: 0 0 250px 94px;
+}
+.g_sList {
+    padding-bottom: 20px;
+}
+.m_item{
+    /*float: left;*/
+    display: inline-block;
+    width: 24%;
+    margin: .5%;
+    box-sizing: border-box;
+    padding-bottom: 10px;
+}
+.m_item h5{
+    font-size: 14px;
+    margin: 10px 0;
+}
+.m_item p{
+    font-size: 12px;
+    margin: 5px 0;
+}
+.u_money{
+    font-size: 18px;
+}
+.u_buy{
+    font-size: 16px;
+}
+/*底部*/
+.m_footer_hd dl{
+    width: 25%;
+    float: left;
+}
+.m_footer_hd dl dt{
+    border-bottom: none;
+}
+.m_footer_hd dl i{
+    display: none;
+}
+.m_footer_hd dl dd{
+    display: block;
+    font-size: 14px;
+    padding-left: 0;
+}
+.u_tab_sel{
+    float: left;
+    margin-top: 8px;
+}
+.u_about_info{
+    float: right;
+    padding-bottom: 0;
+    background-position: right bottom;
+    padding-right: 112px;
+    line-height: 1;
+}
+.u_about_info li{
+    float: left;
+    margin-left: 10px;
+}
+
+
+
+
+
+/*公用样式*/
+.cw{
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.cw_cont{
+    margin: 0 -1%;
+}
+html .pcshow{
+    display: inline-block;
+}
+html .pchide{
+    display: none;
+}

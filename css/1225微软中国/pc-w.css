@@ -1,0 +1,86 @@
+@charset "utf-8";
+
+/*pc下 显示的搜索框*/
+.u_search_input{
+    width: 460px;
+    border: solid 1px #666;
+    height: 28px;
+    padding: 0 10px;
+    display: inline-block;
+    margin-left: 35px;
+}
+.u_search_input input{
+    display: inline-block;
+    width: 100%;
+    height: 28px;
+    line-height: 28px;
+}
+.m_header_icon .u_help,
+.m_header_icon .u_login{
+    font-size: 12px;
+}
+
+/*导航*/
+
+.m_nav_list li{
+    float: left;
+    margin-right: 15px;
+    position: relative;
+}
+.m_nav_list ul{
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 100%;
+    border: solid 1px #666;
+    border-top: none;
+    margin-top: -1px;
+    background-color: #fff;
+    z-index: 2;
+}
+.m_nav_list ul li{
+    margin-right: 0;
+}
+.m_nav_list a{
+    padding: 0 20px;
+}
+.m_nav_list ul a{
+    white-space: nowrap;
+    padding: 0 20px;
+}
+
+
+.u_banner_text{
+    padding-top: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*公用样式*/
+.cw{
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+html .pcshow{
+    display: inline-block;
+}
+html .pchide{
+    display: none;
+}
+html .pcblock{
+    display: block;
+}

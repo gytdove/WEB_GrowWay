@@ -1,0 +1,41 @@
+@charset "utf-8";
+
+/*焦点图*/
+.m_banner img{
+    float: left;
+    width: 52%;
+}
+.u_banner_text{
+    float: right;
+    width: 48%;
+}
+/*畅销排行*/
+/*.cont_nav div{
+    float: left;
+    width: 50%;
+}
+.cont_nav .tar{
+    text-align: right;
+}*/
+
+
+.cont_nav a {
+    width: 15.5%;
+    margin-left: 1%;
+}
+
+.u_tit_c{
+    width: 420px;
+}
+
+.g_sList{
+    padding: 40px 0 0;
+    text-align: center;
+}
+.m_item{
+    /*float: left;*/
+    display: inline-block;
+    width: 47%;
+    margin: 1%;
+    box-sizing: border-box;
+}
