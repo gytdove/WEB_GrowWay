@@ -2,11 +2,11 @@
 
 @font-face {
     font-family: 'iconfont';
-    src: url('../font/iconfont.eot');
-    src: url('../font/iconfont.eot?#iefix') format('embedded-opentype'),
-    url('../font/iconfont.woff') format('woff'),
-    url('../font/iconfont.ttf') format('truetype'),
-    url('../font/iconfont.svg#iconfont') format('svg');
+    src: url('../../font/微软中国/iconfont.eot');
+    src: url('../../font/微软中国/iconfont.eot?#iefix') format('embedded-opentype'),
+    url('../../font/微软中国/iconfont.woff') format('woff'),
+    url('../../font/微软中国/iconfont.ttf') format('truetype'),
+    url('../../font/微软中国/iconfont.svg#iconfont') format('svg');
 }
 .iconfont{
     font-family:"iconfont" !important;
@@ -41,7 +41,7 @@ body{
 .u_logo{
     width: 95px;
     height: 20px;
-    background: url(../images/logo.jpg) 0 0 no-repeat;
+    background: url(../../image/201801/微软中国/logo.jpg) 0 0 no-repeat;
     float: left;
 }
 .m_header_icon a{
@@ -51,7 +51,6 @@ body{
     font-size: 20px;
     color: #000;
     margin-left: 35px;
-    font-size: 20px;
 }
 /*导航*/
 .g_nav{

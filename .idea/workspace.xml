@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="89d91cbc-468c-4e12-9fbf-56df34533c8c" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/css/1225微软中国/common.css" afterPath="$PROJECT_DIR$/css/1225微软中国/common.css" />
       <change beforePath="$PROJECT_DIR$/learnHistory/201712/1225-微软中国.html" afterPath="$PROJECT_DIR$/learnHistory/201712/1225-微软中国.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -20,9 +20,31 @@
       <file leaf-file-name="1225-微软中国.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/learnHistory/201712/1225-微软中国.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="7" lean-forward="true" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="7" />
+            <state relative-caret-position="360">
+              <caret line="24" column="53" lean-forward="false" selection-start-line="24" selection-start-column="53" selection-end-line="24" selection-end-column="53" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pc.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/1225微软中国/pc.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" column="20" lean-forward="true" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="reset.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/1225微软中国/reset.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="543">
+              <caret line="52" column="1" lean-forward="false" selection-start-line="52" selection-start-column="1" selection-end-line="52" selection-end-column="1" />
+              <folding>
+                <marker date="1465514966000" expanded="true" signature="2426:2450" ph="{...}" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -30,8 +52,8 @@
       <file leaf-file-name="common.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/1225微软中国/common.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="409">
-              <caret line="49" column="22" lean-forward="true" selection-start-line="49" selection-start-column="22" selection-end-line="49" selection-end-column="22" />
+            <state relative-caret-position="285">
+              <caret line="19" column="45" lean-forward="false" selection-start-line="19" selection-start-column="45" selection-end-line="19" selection-end-column="45" />
               <folding />
             </state>
           </provider>
@@ -77,6 +99,7 @@
         <option value="$PROJECT_DIR$/Special effects/1202-banner 轮播图.html" />
         <option value="$PROJECT_DIR$/css/1202医药网站.css" />
         <option value="$PROJECT_DIR$/learnHistory/201712/1202-医药网站.html" />
+        <option value="$PROJECT_DIR$/css/1225微软中国/common.css" />
         <option value="$PROJECT_DIR$/learnHistory/201712/1225-微软中国.html" />
       </list>
     </option>
@@ -100,8 +123,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="830" />
-    <option name="y" value="51" />
+    <option name="x" value="738" />
+    <option name="y" value="23" />
     <option name="width" value="1184" />
     <option name="height" value="748" />
   </component>
@@ -142,6 +165,11 @@
             <path>
               <item name="WebGrowWay" type="b2602c69:ProjectViewProjectNode" />
               <item name="WebGrowWay" type="462c0819:PsiDirectoryNode" />
+              <item name="image" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WebGrowWay" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WebGrowWay" type="462c0819:PsiDirectoryNode" />
               <item name="learnHistory" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -154,8 +182,8 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -234,14 +262,15 @@
       <workItem from="1512648263226" duration="961000" />
       <workItem from="1514189120404" duration="2718000" />
       <workItem from="1514255041795" duration="442000" />
+      <workItem from="1514858479956" duration="3030000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="52101000" />
+    <option name="totallyTimeSpent" value="55131000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="830" y="51" width="1184" height="748" extended-state="0" />
+    <frame x="738" y="23" width="1184" height="748" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20777027" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -274,8 +303,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/1124-ihover.html" />
-    <entry file="file://$PROJECT_DIR$/1124-ihover2.html" />
     <entry file="file://$PROJECT_DIR$/1123-ihover.html" />
     <entry file="file://$PROJECT_DIR$/1124-中括号.html" />
     <entry file="file://$PROJECT_DIR$/1124-ihover.html" />
@@ -395,18 +422,36 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/css/1225微软中国/reset.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="543">
+          <caret line="52" column="1" lean-forward="false" selection-start-line="52" selection-start-column="1" selection-end-line="52" selection-end-column="1" />
+          <folding>
+            <marker date="1465514966000" expanded="true" signature="2426:2450" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/1225微软中国/pc.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="20" lean-forward="true" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/css/1225微软中国/common.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="409">
-          <caret line="49" column="22" lean-forward="true" selection-start-line="49" selection-start-column="22" selection-end-line="49" selection-end-column="22" />
+        <state relative-caret-position="285">
+          <caret line="19" column="45" lean-forward="false" selection-start-line="19" selection-start-column="45" selection-end-line="19" selection-end-column="45" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/learnHistory/201712/1225-微软中国.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="7" lean-forward="true" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="7" />
+        <state relative-caret-position="360">
+          <caret line="24" column="53" lean-forward="false" selection-start-line="24" selection-start-column="53" selection-end-line="24" selection-end-column="53" />
           <folding />
         </state>
       </provider>
